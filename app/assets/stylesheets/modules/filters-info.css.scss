@@ -6,6 +6,10 @@
   .header--nav-expanded & {
     display: none;
   }
+
+  .filters--expanded & {
+    color: white;
+  }
 }
 
 .filters-info__session-type {

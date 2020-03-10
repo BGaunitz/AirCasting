@@ -5,6 +5,10 @@
     display: none;
   }
 
+  .header__brand--filters & {
+    stroke: $white;
+  }
+
   @media screen and (min-width: $small-desktop-min) {
     display: none;
   }
@@ -12,6 +16,10 @@
 
 .icon-nav-close {
   display: none;
+
+  .header__brand--filters & {
+    display: initial;
+  }
 
   @media screen and (max-width: $tablet-max) {
     .header--nav-expanded & {
